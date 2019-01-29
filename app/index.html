@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>StarNotary Token DAPP</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		  <script src="./app.js"></script>
+	</head>
+	<body>
+		<div class="wrapper" style="background-image: url('https://colorlib.com/etc/regform/colorlib-regform-23/images/bg-registration-form-7.jpg');background-repeat: no-repeat;">
+			<div class="inner">
+					<h3>Create a Star</h3>
+					<label class="form-group">
+						<input type="text" class="form-control"  required id="starName">
+						<span>Star Name</span>
+						<span class="border"></span>
+					</label>
+					<label class="form-group">
+						<input type="text" class="form-control"  required id="starId">
+						<span for="">Star ID</span>
+						<span class="border"></span>
+					</label>
+
+					 <button id="createStar" onclick="App.createStar()" >Create Star</button>
+				<div class="clear"></div>
+					<h3>Lookup a star</h3>
+					<label class="form-group">
+						<input type="text" class="form-control"  required id="lookupStarId">
+						<span for="">Star ID</span>
+						<span class="border"></span>
+					</label>
+					<button id="LookupStarByID" onclick="App.LookupStarByID()">Lookup A star </button>
+					<div class="stsbox">
+					<span id="status"></span>
+					</div>
+			</div>
+		</div>
+	</body>
+</html>
