@@ -1,8 +1,8 @@
 ##-------------------------------------------------------##
 #### project dependencies:
-$ npm install -g truffle@4.1.15
-$ npm install openzeppelin-solidity@2.0 --save
-$ npm install --save truffle-hdwallet-provider
+## $ npm install -g truffle@4.1.15
+## npm install openzeppelin-solidity@2.0 --save
+## npm install --save truffle-hdwallet-provider
 ##-------------------------------------------------------##
 #### ERC-721 Token Name: HMM StarNotary
 #### ERC-721 Token Symbol: HMM
